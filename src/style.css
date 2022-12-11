@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Arapey&family=Open+Sans:wght@400;600&display=swap");
+
+body {
+  background-color: #f6f2ef;
+  font-family: Open-serif, sans-serif;
+}
+
+.top-nav-div {
+  font-family: Arapey, serif;
+}
+
+.logo {
+  --bs-navbar-brand-color: rgb(152, 146, 93);
+  /* --bs-navbar-brand-font-size: 1.5rem; */
+  letter-spacing: 0.45rem;
+}
+
+.navbar-collapse {
+  font-family: Open-serif, sans-serif;
+}
+
+.letter-spacing {
+  letter-spacing: 0.25rem;
+}
