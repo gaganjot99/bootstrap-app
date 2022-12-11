@@ -61,14 +61,16 @@
       </div>
     </nav>
     <div class="top-div">
-      <div class="container-xl">
-        <div class="row min-vh-100">
-          <div class="col-md-4 my-auto h-75">
+      <div class="container-xl border-bottom border-2 border-opacity-75 pb-400">
+        <div class="row min-vh-100 px-5">
+          <div
+            class="col-md-4 d-flex flex-column justify-content-around align-items-start my-auto mb-2"
+          >
             <p class="letter-spacing">Beauty Products</p>
             <h1 class="display-5 fw-bolder lh-base">
               SKIN CARE MADE SIMPLE & AFFORDABLE
             </h1>
-            <p class="lh-base fs-4 text-secondary mb-6">
+            <p class="lh-base fs-5 text-secondary mt-4 mb-5">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo
               neque vitae laboriosam corporis distinctio explicabo, labore
               nostrum nam dicta ut soluta, sit aspernatur, placeat ducimus
@@ -81,7 +83,51 @@
               SHOP NOW
             </button>
           </div>
-          <div class="col-md-8 border border-2">2nd div</div>
+          <div class="col-md-8 position-relative">
+            <div class="position-absolute w-100 h-100 border-top-bg"></div>
+            <div
+              class="position-absolute overflow-hidden img-bottom-round border border-secondary"
+            >
+              <img class="img-fluid" src="images/img1.jpg" />
+            </div>
+            <div
+              class="position-absolute overflow-hidden img-top-round top-round border border-secondary"
+            >
+              <img class="img-fluid" src="images/img2.jpg" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="second-div">
+      <div class="container-xl">
+        <div class="row min-vh-100 px-5 py-200">
+          <div class="col-md position-relative my-auto">
+            <div
+              class="position-absolute w-50 h-100 border-top-bg rounded-pill"
+              style="left: 20%"
+            ></div>
+            <div
+              class="top-round border border-secondary overflow-hidden position-relative"
+              style="height: 700px; z-index: 10"
+            >
+              <img class="img-fluid h-100" src="images/img3.jpg" />
+            </div>
+          </div>
+          <div class="col-md font-cust ps-5">
+            <h1 class="display-5 fw-bolder lh-lg">100% SAFE</h1>
+            <h1 class="display-5 fw-bolder lh-lg text-danger">NATURAL</h1>
+            <h1 class="display-5 fw-bolder lh-lg">ORGANIC</h1>
+            <h1 class="display-5 fw-bolder lh-lg pb-4">MILD AND HEALTHY</h1>
+            <p class="lh-base fs-5 text-secondary mt-5 mb-5 w-75">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo
+              neque vitae <span class="text-danger">laboriosam</span> corporis
+              distinctio explicabo, labore nostrum nam dicta ut soluta, sit
+              aspernatur, placeat ducimus eveniet facilis deleniti excepturi
+              est. labore nostrum nam dicta ut soluta, sit aspernatur, placeat
+              ducimus.
+            </p>
+          </div>
         </div>
       </div>
     </div>

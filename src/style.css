@@ -5,6 +5,10 @@ body {
   font-family: Open-serif, sans-serif;
 }
 
+img {
+  object-fit: cover;
+}
+
 .top-nav-div {
   font-family: Arapey, serif;
 }
@@ -15,10 +19,46 @@ body {
   letter-spacing: 0.45rem;
 }
 
-.navbar-collapse {
+.navbar-collapse,
+.font-cust {
   font-family: Open-serif, sans-serif;
 }
 
 .letter-spacing {
   letter-spacing: 0.25rem;
+}
+
+.border-top-bg {
+  border: 25px dashed #e8e3df;
+  border-radius: 50%;
+  margin: 25px;
+}
+
+.top-round {
+  border-top-left-radius: 190px;
+  border-top-right-radius: 190px;
+  width: 380px;
+}
+
+.img-top-round {
+  height: 600px;
+  right: 5%;
+  top: 9%;
+}
+.img-bottom-round {
+  border-bottom-left-radius: 190px;
+  border-bottom-right-radius: 190px;
+  height: 600px;
+  width: 380px;
+  left: 13%;
+  top: 35%;
+  z-index: 10;
+}
+
+.pb-400 {
+  padding-bottom: 400px;
+}
+
+.py-200 {
+  padding: 200px 0px;
 }
