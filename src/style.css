@@ -15,8 +15,9 @@ img {
 
 .logo {
   --bs-navbar-brand-color: rgb(152, 146, 93);
-  /* --bs-navbar-brand-font-size: 1.5rem; */
+  color: var(--bs-navbar-brand-color);
   letter-spacing: 0.45rem;
+  font-family: Arapey, serif;
 }
 
 .navbar-collapse,
@@ -55,10 +56,23 @@ img {
   z-index: 10;
 }
 
+.left-top-border {
+  width: 600px;
+  border-top-left-radius: 350px;
+}
+
 .pb-400 {
   padding-bottom: 400px;
 }
 
+.py-100 {
+  padding: 100px 0;
+}
+
 .py-200 {
   padding: 200px 0px;
+}
+
+.h-img {
+  height: 300px;
 }
