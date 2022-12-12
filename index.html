@@ -61,10 +61,12 @@
       </div>
     </nav>
     <div class="top-div">
-      <div class="container-xl border-bottom border-2 border-opacity-75 pb-400">
-        <div class="row min-vh-100 px-5">
+      <div
+        class="container-xl border-bottom border-2 border-opacity-75 py-200 pt-0"
+      >
+        <div class="row px-md-5">
           <div
-            class="col-md-4 d-flex flex-column justify-content-around align-items-start my-auto mb-2"
+            class="col-md-4 d-flex flex-column justify-content-around align-items-start my-auto mb-2 py-200 px-xs-5"
           >
             <p class="letter-spacing">Beauty Products</p>
             <h1 class="display-5 fw-bolder lh-base">
@@ -84,9 +86,11 @@
             </button>
           </div>
           <div class="col-md-8 position-relative">
-            <div class="position-absolute w-100 h-100 border-top-bg"></div>
             <div
-              class="position-absolute overflow-hidden img-bottom-round border border-secondary"
+              class="position-absolute w-100 h-100 border-top-bg d-md-block d-none"
+            ></div>
+            <div
+              class="position-absolute overflow-hidden img-bottom-round border border-secondary d-md-block d-none"
             >
               <img class="h-100 w-100" src="images/img1.jpg" />
             </div>
@@ -101,10 +105,10 @@
     </div>
     <div class="second-div border-bottom border-2 border-opacity-75">
       <div class="container-xl">
-        <div class="row min-vh-100 px-5 py-100">
-          <div class="col-md position-relative my-auto">
+        <div class="row px-md-5 py-100">
+          <div class="col-md position-relative my-auto overflow-hidden">
             <div
-              class="position-absolute w-50 h-100 border-top-bg rounded-pill"
+              class="position-absolute w-50 h-100 border-top-bg rounded-pill d-md-block d-none"
               style="left: 20%"
             ></div>
             <div
@@ -133,7 +137,7 @@
     </div>
     <div class="second-div border-bottom border-2 border-opacity-75">
       <div class="container-xl">
-        <div class="row min-vh-100 px-5 py-200">
+        <div class="row px-md-5 py-200">
           <div class="col-md my-auto">
             <p class="letter-spacing">Beauty Products</p>
             <h1 class="display-5 fw-bolder lh-base">
@@ -153,14 +157,15 @@
               SHOP NOW
             </button>
           </div>
-          <div class="col-md font-cust ps-5 position-relative">
+          <div
+            class="col-md font-cust ps-md-5 position-relative overflow-hidden pt-5"
+          >
             <div
-              class="position-absolute w-50 h-100 border-top-bg rounded-pill"
+              class="position-absolute w-50 h-100 border-top-bg rounded-pill d-md-block d-none"
               style="left: -5%"
             ></div>
             <div
               class="left-top-border border border-2 border-secondary overflow-hidden position-relative me-md-4"
-              style="height: 800px; z-index: 10"
             >
               <img class="h-100 w-100" src="images/img3.jpg" />
             </div>
@@ -170,7 +175,7 @@
     </div>
     <div class="third-div">
       <div class="container-xl">
-        <div class="row min-vh-100 px-5 py-200 pb-4">
+        <div class="row px-5 py-200 pb-4">
           <div class="col-md-7">
             <p class="letter-spacing">POPULAR NOW</p>
             <h1 class="display-5 fw-bolder lh-base">MOST POPULAR</h1>
@@ -254,13 +259,9 @@
         <p class="letter-spacing text-uppercase pb-4" style="font-size: 0.5rem">
           skin care made simple and affordable
         </p>
-
-        <p class="text-secondary py-5" style="font-size: 0.75rem">
-          @Website made by gagankahal
-        </p>
       </div>
-      <div class="w-50 float-end">
-        <div class="w-75 float-end ps-5">
+      <div class="w-50 float-end new-footer">
+        <div class="w-75 float-end ps-md-5">
           <p class="letter-spacing mb-0 fs-4">SUBSCRIBE TO</p>
           <p class="letter-spacing mb-0 fs-4">OUR NEWSLETTER</p>
           <form class="position-relative mt-3">
@@ -280,6 +281,9 @@
         </div>
       </div>
     </footer>
+    <p class="text-secondary py-5 container-xl ps-5" style="font-size: 0.75rem">
+      @Website made by gagankahal
+    </p>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"

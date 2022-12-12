@@ -59,10 +59,8 @@ img {
 .left-top-border {
   width: 600px;
   border-top-left-radius: 350px;
-}
-
-.pb-400 {
-  padding-bottom: 400px;
+  height: 800px;
+  z-index: 10;
 }
 
 .py-100 {
@@ -75,4 +73,35 @@ img {
 
 .h-img {
   height: 300px;
+}
+
+@media (max-width: 850px) {
+  .py-200 {
+    padding: 100px 0;
+  }
+  .py-100 {
+    padding: 50px 0;
+  }
+  .left-top-border {
+    width: 100vw;
+  }
+  .img-top-round {
+    position: static !important;
+  }
+  .top-round {
+    width: 100vw;
+    border-radius: 0;
+    max-height: 400px !important;
+  }
+  .px-xs-5 {
+    padding: 2rem;
+  }
+  .left-top-border {
+    border-radius: 0;
+    height: 400px;
+  }
+  .new-footer {
+    width: 100vw !important;
+    margin-bottom: 50px;
+  }
 }
